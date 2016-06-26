@@ -6,7 +6,7 @@ import logging
 try:
     from logging import dictConfig
 except ImportError:
-    # -- Python -2.7
+    # -- Python 2.5+
     from .dictconfig import dictConfig
 
 

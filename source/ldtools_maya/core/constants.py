@@ -1,4 +1,4 @@
-from .constants import *
+from ldtools.constants import *
 
 
 LOGGER_NAME = '%s.%s' %(LOGGER_NAME,
